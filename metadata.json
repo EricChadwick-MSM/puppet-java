@@ -1,6 +1,6 @@
 {
   "name": "puppet-java",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "author": "MSM",
   "license": "MIT",
   "summary": "Java Puppet Module",

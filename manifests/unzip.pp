@@ -1,4 +1,4 @@
-class java::package{
+class unzip{
 
   package{ 'unzip':
     ensure => installed,

@@ -9,7 +9,7 @@ class java::jce (
   $driver_repo = 'ext-release-local',
 ) {
   # Requires
-  require java::package
+  include unzip
 
   wget::fetch { "${repo_url}/${driver_repo}/oracle/security/UnlimitedJCEPolicyJDK${java_major_version}.zip":
     destination => '/tmp/UnlimitedJCEPolicyJDK.zip',
