@@ -15,16 +15,19 @@ class java (
   # Remove OpenJDK 6
   package {'java-1.6.0-openjdk':
     ensure   => absent,
+	provider => yum,
   }
 
   # Remove OpenJDK 7
   package {'java-1.7.0-openjdk':
     ensure   => absent,
+	provider => yum,
   }
 
   # Remove OpenJDK 8
   package {'java-1.8.0-openjdk':
     ensure   => absent,
+	provider => yum,
   }
 
   # Configure JAVA_HOME globlly.
